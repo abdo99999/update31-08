@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productReference": "ref1",
+      "productName": "product1",
+      "productDescription": "desc1",
+      "productPrice": "123.12",
+      "cooperativeId": "1",
+      "productQuantity": 13,
+      "productExpiredDate": "2021-08-27",
+      "productDiscount": "false",
+      "categoryId": "1",
+      "status": {
+        "id": 1,
+        "statusName": "En cours"
+      }
+    },
+    {
+      "id": 2,
+      "productReference": "ref2",
+      "productName": "product2",
+      "productDescription": "desc2",
+      "productPrice": "123",
+      "cooperativeId": "1",
+      "productQuantity": 10,
+      "productExpiredDate": "2021-08-22",
+      "productDiscount": "false",
+      "categoryId": "1",
+      "status": {
+        "id": 1,
+        "statusName": "En cours"
+      }
+    },
+    {
+      "id": 3,
+      "productReference": "ref4",
+      "productName": "product5",
+      "productDescription": "desc2",
+      "productPrice": "123.12",
+      "cooperativeId": "1",
+      "productQuantity": 6,
+      "productExpiredDate": "2021-08-13",
+      "productDiscount": "false",
+      "categoryId": "1",
+      "status": {
+        "id": 1,
+        "statusName": "En cours"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Ref"
+    },
+    {
+      "id": 2,
+      "categoryName": "Ref2"
+    }
+  ],
+  "sous-categories": [
+    {
+      "id": 1,
+      "subCategoryName": "subcategory1",
+      "mainCategory": 1
+    },
+    {
+      "id": 2,
+      "subCategoryName": "REFe",
+      "mainCategory": "1"
+    }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "statusName": "En cours"
+    },
+    {
+      "id": 2,
+      "statusName": "Approuvé"
+    },
+    {
+      "id": 3,
+      "statusName": "Annulé"
+    }
+  ],
+  "cooperatives": [
+    {
+      "id": 1,
+      "cooperativeName": "cooper",
+      "cooperativeDescription": "descrip1",
+      "cooperativeEmail": "email@email.com",
+      "cooperativePhone1": "0644534434",
+      "cooperativePhone2": "0675644556",
+      "cooperativeFax": "0655444566",
+      "cooperativeAdress1": "23,bd anoual",
+      "cooperativeAdress2": "res anoual",
+      "countryId": 1,
+      "cityId": 1,
+      "accountId": 1,
+      "cooperativePostCode": "20360"
+    },
+    {
+      "id": 2,
+      "cooperativeName": "Coop2",
+      "cooperativeDescription": "desc2",
+      "cooperativeEmail": "email@de.fr",
+      "cooperativePhone1": "0653742875",
+      "cooperativePhone2": "0753742875",
+      "cooperativeFax": "0798998989",
+      "cooperativeAdress1": "23,bd anoual",
+      "cooperativeAdress2": "res anoual",
+      "countryId": "2",
+      "cityId": "2",
+      "accountId": "2",
+      "cooperativePostCode": "20467"
+    }
+  ]
+}
